@@ -3,7 +3,10 @@
 ## What does this repository do?
 This repository serves as a demo/boilerplate for Strapi. Companion to [biz-web-client-demo](https://github.com/chenh1/biz-web-client-demo).
 
-Uses pm2 to reset application on max memory. Configure this in `ecosystem.config.js`
+Uses pm2 to reset application on max memory. Configure this in `ecosystem.config.js`.
+
+To test it out, setup a postgres database locally and plug it your credentials into `.env`.
+
 
 ## Features
 
