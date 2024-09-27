@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_user_progress_completed_modules",
+  "info": {
+    "displayName": "Completed-module",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "lessonModule": {
+      "type": "decimal"
+    },
+    "examScore": {
+      "type": "float"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_exam_q_chart_questions",
+  "info": {
+    "displayName": "Chart-question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "chartData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exam-q.chart-datum"
+    },
+    "question": {
+      "type": "text"
+    },
+    "yType": {
+      "type": "enumeration",
+      "enum": [
+        "date",
+        "number",
+        "string"
+      ]
+    },
+    "yAxisLabel": {
+      "type": "string"
+    },
+    "xAxisLabel": {
+      "type": "string"
+    },
+    "xType": {
+      "type": "enumeration",
+      "enum": [
+        "date",
+        "number",
+        "string"
+      ]
+    },
+    "correctAnswer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "exam-q.chart-datum"
+    },
+    "chartType": {
+      "type": "enumeration",
+      "enum": [
+        "line",
+        "candlestick"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "static_page_seo_metadata",
+  "info": {
+    "singularName": "static-page-seo-metadatum",
+    "pluralName": "static-page-seo-metadata",
+    "displayName": "Static Page SEO Metadata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageName": {
+      "type": "string"
+    },
+    "seoMetaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

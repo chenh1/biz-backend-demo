@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_fill_in_question_fill_in_questions",
+  "info": {
+    "displayName": "Fill-in-question",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "correctAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fill-in-question.answers"
+    }
+  }
+}

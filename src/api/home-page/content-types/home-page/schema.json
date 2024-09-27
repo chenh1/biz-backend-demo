@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroCopy": {
+      "type": "string"
+    },
+    "step1": {
+      "type": "text"
+    },
+    "step2": {
+      "type": "text"
+    },
+    "step3": {
+      "type": "text"
+    },
+    "promo1Title": {
+      "type": "string"
+    },
+    "promo1Description": {
+      "type": "text"
+    },
+    "promo1CtaCopy": {
+      "type": "string"
+    },
+    "heroCtaCopy": {
+      "type": "string"
+    },
+    "promo2Title": {
+      "type": "string"
+    },
+    "promo2Description": {
+      "type": "text"
+    },
+    "promo2CtaCopy": {
+      "type": "string"
+    },
+    "heroDescription": {
+      "type": "text"
+    },
+    "midwayTagline": {
+      "type": "text"
+    },
+    "promo2Cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    },
+    "promo1Cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    },
+    "heroCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.link"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

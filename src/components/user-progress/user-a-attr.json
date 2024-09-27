@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_user_progress_user_a_attrs",
+  "info": {
+    "displayName": "user-a-attr",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "attribute": {
+      "type": "enumeration",
+      "enum": [
+        "risk",
+        "experience",
+        "willingness",
+        "patience"
+      ]
+    },
+    "points": {
+      "type": "integer"
+    },
+    "answerKey": {
+      "type": "string"
+    }
+  }
+}

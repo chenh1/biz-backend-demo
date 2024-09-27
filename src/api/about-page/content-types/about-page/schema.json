@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

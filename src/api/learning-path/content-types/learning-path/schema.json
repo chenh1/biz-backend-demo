@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "learning_paths",
+  "info": {
+    "singularName": "learning-path",
+    "pluralName": "learning-paths",
+    "displayName": "Learning Path"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "level": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rawTree": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_fill_in_question_answers",
+  "info": {
+    "displayName": "answers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "string"
+    }
+  }
+}

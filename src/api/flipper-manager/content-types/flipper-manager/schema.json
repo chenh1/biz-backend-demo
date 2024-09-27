@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "flipper_managers",
+  "info": {
+    "singularName": "flipper-manager",
+    "pluralName": "flipper-managers",
+    "displayName": "Flipper Manager",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ads": {
+      "type": "boolean"
+    },
+    "adsPostsPage": {
+      "type": "boolean",
+      "default": true
+    },
+    "adsPostPage": {
+      "type": "boolean",
+      "default": true
+    },
+    "adsDashboard": {
+      "type": "boolean",
+      "default": true
+    },
+    "adsModuleLearnView": {
+      "type": "boolean",
+      "default": true
+    },
+    "adsModuleExamView": {
+      "type": "boolean",
+      "default": true
+    },
+    "testMode": {
+      "type": "boolean",
+      "default": false
+    },
+    "maintenanceMode": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_multi_choice_q_multi_choice_qs",
+  "info": {
+    "displayName": "multi-choice-q"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multi-choice-q.answers"
+    },
+    "correctAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multi-choice-q.answers"
+    }
+  }
+}

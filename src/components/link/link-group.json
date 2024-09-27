@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_link_link_groups",
+  "info": {
+    "displayName": "Link-group"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    }
+  }
+}

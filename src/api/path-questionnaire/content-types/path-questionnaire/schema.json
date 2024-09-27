@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "path_questionnaires",
+  "info": {
+    "singularName": "path-questionnaire",
+    "pluralName": "path-questionnaires",
+    "displayName": "Path-questionnaire"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pathQuestionnaireMappings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user-progress.path-q-map"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multi-choice-q.multi-choice-q"
+    }
+  }
+}

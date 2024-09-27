@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_exam_q_table_data",
+  "info": {
+    "displayName": "table-datum"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "xCell": {
+      "type": "integer"
+    },
+    "yCell": {
+      "type": "integer"
+    }
+  }
+}

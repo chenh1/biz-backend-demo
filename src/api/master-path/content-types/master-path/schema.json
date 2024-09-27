@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "master_paths",
+  "info": {
+    "singularName": "master-path",
+    "pluralName": "master-paths",
+    "displayName": "Master path"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderedPathArray": {
+      "type": "json"
+    }
+  }
+}

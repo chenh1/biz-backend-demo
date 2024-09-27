@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_multi_choice_q_answers",
+  "info": {
+    "displayName": "answers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "text"
+    },
+    "key": {
+      "type": "string"
+    }
+  }
+}

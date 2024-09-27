@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_exam_q_chart_data",
+  "info": {
+    "displayName": "chart-datum",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "x": {
+      "type": "string"
+    },
+    "y": {
+      "type": "string"
+    },
+    "multiPoints": {
+      "type": "json"
+    }
+  }
+}

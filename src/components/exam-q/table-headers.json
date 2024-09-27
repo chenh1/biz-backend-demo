@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_exam_q_table_headers",
+  "info": {
+    "displayName": "Table-headers"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "position": {
+      "type": "integer"
+    }
+  }
+}

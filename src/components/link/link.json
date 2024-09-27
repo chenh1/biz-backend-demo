@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_link_links",
+  "info": {
+    "displayName": "link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "copy": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

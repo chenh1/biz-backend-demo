@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exam_questions",
+  "info": {
+    "singularName": "exam-question",
+    "pluralName": "exam-questions",
+    "displayName": "Exam Question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fillInQuestion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fill-in-question.fill-in-question"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "lessonModule": {
+      "type": "decimal"
+    },
+    "explanation": {
+      "type": "text"
+    },
+    "interactiveChartQuestion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "exam-q.chart-question"
+    },
+    "interactiveTableQuestion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "exam-q.table-question"
+    },
+    "multiChoiceQuestion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "multi-choice-q.multi-choice-q"
+    }
+  }
+}

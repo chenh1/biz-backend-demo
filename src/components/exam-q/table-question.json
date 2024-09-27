@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_exam_q_table_questions",
+  "info": {
+    "displayName": "table-question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tableData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exam-q.table-datum"
+    },
+    "correctAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exam-q.table-datum"
+    },
+    "question": {
+      "type": "text"
+    },
+    "answerType": {
+      "type": "enumeration",
+      "enum": [
+        "fill_in",
+        "one_click",
+        "multi_click"
+      ]
+    },
+    "rowHeaders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exam-q.table-headers"
+    },
+    "columnHeaders": {
+      "type": "component",
+      "repeatable": true,
+      "component": "exam-q.table-headers"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_pages",
+  "info": {
+    "singularName": "privacy-page",
+    "pluralName": "privacy-pages",
+    "displayName": "Privacy-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
